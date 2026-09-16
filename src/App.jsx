@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import CardList from './assets/components/CardList'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      
+    <h1>Learn Web development</h1>
+      <CardList/>
     </>
   )
 }
